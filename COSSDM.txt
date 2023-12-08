@@ -1,0 +1,82 @@
+1.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ ls -lS $HOME
+total 91520
+-rw-rw-r--  1 mayur mayur 93670363 Dec  7 15:26  minikube-linux-amd64
+drwxr-xr-x  4 mayur mayur     4096 Dec  8 16:47  Desktop
+drwxr-xr-x  2 mayur mayur     4096 Sep 10 23:00  Documents
+drwxr-xr-x  6 mayur mayur     4096 Dec  8 15:49  Downloads
+drwxr-xr-x  2 mayur mayur     4096 Sep 10 23:00  Music
+drwxrwxr-x 11 mayur mayur     4096 Nov 26 15:43  PG-DAC_Sept-2023
+drwxr-xr-x  4 mayur mayur     4096 Sep 29 22:32  Pictures
+drwxr-xr-x  2 mayur mayur     4096 Sep 10 23:00  Public
+drwx------  8 mayur mayur     4096 Nov 25 08:34  snap
+drwxr-xr-x  5 mayur mayur     4096 Aug 21 20:53 'Sunbeam Java'
+drwxr-xr-x  2 mayur mayur     4096 Sep 10 23:00  Templates
+drwxr-xr-x  2 mayur mayur     4096 Sep 10 23:00  Videos
+-rw-rw-r--  1 mayur mayur        0 Dec  8 16:12  docker
+-rw-rw-r--  1 mayur mayur        0 Dec  8 15:38  git
+
+===================================================================
+
+2.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ wc -wml info.txt
+ 10  24 150 info.txt
+ 
+===================================================================
+
+3.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ cat info.txt | grep -v "files"
+"Linux is open source.
+
+In linux everything
+
+
+
+
+there are several types of file"
+
+===================================================================
+
+4.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ head info.txt | tail -n 7
+
+is file.files have permissions.
+
+files have inode no.
+
+files have size.
+
+===================================================================
+
+5.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ cat info.txt | grep "have" 
+is file.files have permissions.
+files have inode no.
+files have size.
+
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ cat -n info.txt | grep -c "have" 
+3
+
+===================================================================
+
+6.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ cat info.txt | grep "g$"
+In linux everything
+
+===================================================================
+
+7.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ head -n 3 info.txt
+"Linux is open source.
+
+In linux everything
+
+===================================================================
+
+8.
+mayur@boiledPotato:~/Desktop/80713_Mayur_COSSDM$ cat info.txt | grep "^f"
+files have inode no.
+files have size.
+
+===================================================================
+
